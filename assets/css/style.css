@@ -1,0 +1,24 @@
+.name-header {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px;
+    border-color: #cccccc;
+}
+
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+a:link {
+    text-decoration: none;
+    color: #acacac
+}
+
