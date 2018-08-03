@@ -2,9 +2,8 @@
 .header {
     overflow: hidden;
     background-color: #ffffff;
-    margin: 0 auto;
-    padding: 0;
-    width: 960px;
+    margin: 0;
+    width: 100%;
     border-color: #cccccc;
 }
 
@@ -14,22 +13,20 @@
     color: white;
     float: left;
     text-align: center;
-    padding: 25px;
+    padding: 0;
     text-decoration: none;
-    font-size: 30px;
-    line-height: 25px;        
+    font-size: 30px; 
+    margin-left: 480px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 /* Header Links*/
 .header a {
     float: left;
-    color: #777777;
-    text-align: center;
+    color: #777777;   
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 25px;
-    border-right: 1px solid rgb(230, 228, 228);
 }
 
 /* Change color on hover of links */
@@ -41,49 +38,69 @@
 /* send link section to the right*/
 .header-right {
     float: right;
-    overflow: hidden;
-    padding: 25px;
+    margin-right: 480px
 }
 
+/* the stuff behind the main stuff*/
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 150%;
+    background-image: url(../images/qbkls.png);
 }
 
 a:link {
     text-decoration: none;
 }
 
-div.container {
+/* body of webpage */
+div.clearfix {
     width: 960px;
     margin: 0 auto;
     padding: 0;  
-    position: relative;  
+    position: relative; 
+    overflow: auto; 
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-color: #dddddd;
 }
 
+
 /* getting everyint to line up */
-#about-me,
-#bio-image {
-    float: left
+#about-me {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* About me color and size */
 #intro {
-    color: #4aaaa5
+    color: #4aaaa5;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
 }
 
 /* picture dimensions */
 #bio-image {
     margin-right: 20px;
-    width: 180px;
-    height: 200px;
-    margin-top: 25px;
+    width: 200px;
+    height: 220px;
+    margin-top: 15px;
+    float: left
+   
 }
 
 /* link to swagelok website */
 #work-link {
     color: #4aaaa5;
 }
+
+hr {
+    height: 3px;
+    background-color: #cccccc;
+    border-style: none;
+}
+
