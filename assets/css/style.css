@@ -95,10 +95,11 @@ div.clearfix {
 /* picture dimensions */
 #bio-image {
     margin-right: 20px;
-    width: 200px;
+    width: 260px;
     height: 220px;
     margin-top: 15px;
-    float: left
+    float: left;
+    margin-left: 0;
    
 }
 
@@ -141,6 +142,11 @@ hr {
     height: 50px
 }
 
+
+
+
+
+/* Contact me */
 /* message area formatting */
 textarea {
     width: 920px;
@@ -181,25 +187,33 @@ input {
     margin-bottom: 30px
 }
 
+
+
+
+/* Portfolio */
 /* image properties */
 img {
     height: 30%;
     width: 30%;
-    position: relative;
     margin: 20px 20px 20px 20px;
 }
 
+/* Where the pictures go */
 .box-set {
     position: relative;
     margin-left: -20px;
+    overflow: auto;
+    float: left;
+    
 }
 
+/* text boxes on the pictures */
 #images {
     position: relative;
     color: white;
     background-color: #4aaaa5;
     text-align: center;
-    width: 30%;
+    width: 282px;
     margin-left: 20px;
     bottom: 90px;
     height: 50px;
@@ -207,5 +221,4 @@ img {
     vertical-align: middle;
     
 }
-
 
