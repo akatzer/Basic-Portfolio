@@ -1,32 +1,45 @@
-/* Header background */
-.header {
-    overflow: hidden;
-    background-color: #ffffff;
-    margin: 0;
+/* White header with bottom border */
+header{
     width: 100%;
-    border-color: #cccccc;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+/* The area where my name and links go along the top*/
+.header {
+    background-color: #ffffff;
+    width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+    position: static;
 }
 
 /* my name on the header */
-.header .name{
+.name{
     background-color: #4aaaa5;
     color: white;
     float: left;
     text-align: center;
-    padding: 0;
+    padding: 10px;
     text-decoration: none;
-    font-size: 30px; 
-    margin-left: 480px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Header Links*/
+/* The link text on the header*/
 .header a {
     float: left;
     color: #777777;   
-    padding: 12px;
     text-decoration: none;
     font-size: 18px;
+}
+
+/* where the links above go on the header*/
+.header-right {
+    float: right;
+    text-align: center;
+    margin-top: 35px;
+    height: 18px
 }
 
 /* Change color on hover of links */
@@ -35,13 +48,7 @@
     color: black
 }
 
-/* send link section to the right*/
-.header-right {
-    float: right;
-    margin-right: 480px
-}
-
-/* the stuff behind the main stuff*/
+/* the background */
 body {
     margin: 0;
     padding: 0;
@@ -49,13 +56,15 @@ body {
     font-size: 18px;
     line-height: 150%;
     background-image: url(../images/qbkls.png);
+    color: #777777
 }
 
+/* make it so the links dont turn purple */
 a:link {
     text-decoration: none;
 }
 
-/* body of webpage */
+/* body of page */
 div.clearfix {
     width: 960px;
     margin: 0 auto;
@@ -65,10 +74,11 @@ div.clearfix {
     background-color: #ffffff;
     margin-top: 20px;
     border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
 }
 
-
-/* getting everyint to line up */
+/* getting everything in the body to line up */
 #about-me {
     float: left;
     margin-left: 20px;
@@ -78,9 +88,8 @@ div.clearfix {
 /* About me color and size */
 #intro {
     color: #4aaaa5;
-    font-size: 28px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif
-    
 }
 
 /* picture dimensions */
@@ -98,9 +107,105 @@ div.clearfix {
     color: #4aaaa5;
 }
 
+/* the divider on the body*/
 hr {
     height: 3px;
     background-color: #cccccc;
     border-style: none;
 }
+
+
+/* the next three are to get the borders between the links */
+#about {
+    border-right: 1px solid #e4e0e0;
+    padding: 0 22px 0 22px
+}
+
+#portfolio {
+    border-right: 1px solid #e4e0e0;
+    padding: 0 22px 0 22px;
+}
+
+#contact {
+    padding: 0 22px 0 22px;
+}
+
+/* pretty self explainitory */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    height: 50px
+}
+
+/* message area formatting */
+textarea {
+    width: 920px;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Input formatting */
+input {
+    width: 905px;
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+    color: #777777;
+}
+
+/* getting the form away from the break */
+.form {
+    margin-top: 25px;
+}
+
+/* button styling */
+#button{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    width: 110px;   
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+/* image properties */
+img {
+    height: 30%;
+    width: 30%;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+}
+
+.box-set {
+    position: relative;
+    margin-left: -20px;
+}
+
+#images {
+    position: relative;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 30%;
+    margin-left: 20px;
+    bottom: 90px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    
+}
+
 
