@@ -20,7 +20,7 @@ header{
     color: white;
     float: left;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     text-decoration: none;
     font-size: 18px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,7 +72,7 @@ div.clearfix {
     position: relative; 
     overflow: auto; 
     background-color: #ffffff;
-    margin-top: 20px;
+    margin-top: 40px;
     border-color: #dddddd;
     border-style: solid;
     border-width: 1px;
@@ -193,21 +193,42 @@ input {
 /* Portfolio */
 /* image properties */
 img {
-    height: 30%;
-    width: 30%;
-    margin: 20px 20px 20px 20px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    float: left;
+    padding: 0;
 }
 
 /* Where the pictures go */
 .box-set {
     position: relative;
     margin-left: -20px;
-    overflow: auto;
-    float: left;
     
 }
+    
+.container {
+        position: relative;
+        text-align: center;
+        margin: 25px;
+        padding: 0;
+        float: left;
+        width: 280px;
+        
+        
+                      
+}
 
-/* text boxes on the pictures */
+.banner1 {
+    color: white;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 240px;
+    top: 115px;
+    line-height: 15px;
+    padding: 20px
+}
+/* text boxes on the pictures 
 #images {
     position: relative;
     color: white;
@@ -218,7 +239,7 @@ img {
     bottom: 90px;
     height: 50px;
     line-height: 50px;
-    vertical-align: middle;
-    
-}
+    vertical-align: middle;*/
+
+
 
