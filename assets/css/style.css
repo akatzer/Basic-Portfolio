@@ -224,9 +224,10 @@ img {
     position: absolute;
     background-color: #4aaaa5;
     width: 240px;
-    top: 115px;
+    top: 110px;
     line-height: 15px;
-    padding: 20px
+    padding: 20px;
+    font-size: 18px;
 }
 /* text boxes on the pictures 
 #images {
